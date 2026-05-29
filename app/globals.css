@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FAF7EF;
+  --evergreen: #163B34;
+  --ink: #1D2723;
+  --muted: #647067;
+  --amber: #F2B84B;
+  --teal: #2F9C95;
+  --border: #E7E1D6;
+  --card: #FFFDF7;
+  --soft-green: #EEF6F1;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--cream); color: var(--ink); }
+h1,h2,h3,h4 { font-family: var(--font-heading), Georgia, serif; letter-spacing: -0.02em; }
